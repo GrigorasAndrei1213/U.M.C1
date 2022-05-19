@@ -1,0 +1,179 @@
+
+html, body {
+    font-family: 'Segoe UI','Poppins', sans-serif;
+    height: 100vh;
+    color: black;
+    position: relative;
+    height: 100vh;
+    background-image: url(poza6.jpg);
+    background-size: cover;
+    background-repeat:inherit;
+    background-position: center ;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  main {
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 10vw;
+    height: 60vh;
+    padding: 0 30px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .centru{
+    margin-top: 4vw;
+  }
+  
+  .title {
+    font-size: 5vw;
+    line-height: 2vw;
+    margin-bottom: 10px;
+    color: #000000;
+  }
+  
+  .subtitle {
+    position: relative;
+    font-size: 2.5vw;
+    bottom: 40px;
+    color: #0d0616;
+  }
+  
+  p {
+    margin-bottom: 20px;
+  }
+  
+  main ul {
+    list-style: none;
+  }
+  
+  main li {
+    margin-bottom: 5px;
+    position: relative;
+    padding-left: 25px;
+  }
+  
+  main li:before {
+    content: '—';
+    position: absolute;
+    left: 0;
+  }
+  
+  main code {
+    font-size: 16px;
+    background: #ffffff;
+  }
+  
+  .sus{
+    font-size: 3vw;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.4);
+  }
+  footer {
+    position: fixed;
+    text-align: center;
+    padding: 3px;
+    background-color: black;
+    color: white;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  
+  .logo{
+   position: relative;
+  bottom: 577px;
+  float: left;
+width: 12vw;
+}
+  
+  .listaitemsus{
+    float: right;
+  }
+  
+  .listatitlusus{
+    margin-right: 2vw;
+    margin-left: 2vw;
+  }
+  
+  .jos{
+    font-size: 3vw;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #696969;
+  }
+  
+  .listaitemjos{
+    float: right;
+  }
+  
+  .listatitlujos{
+    margin-right: 2vw;
+    margin-left: 2vw;
+  }
+  
+  .listalinksus{
+    color: rgb(173, 193, 230);
+  }
+  
+  .listalinkjos{
+    color: rgb(173, 193, 230);
+  }
+  
+  @media (min-width: 1000px) {
+    .subtitle{
+      font-size: 25px;
+    }
+  }
+  @media(max-width:800px){
+    .subtitle{
+      font-size: 17px;
+    }
+  }
+  @media (min-width:1000px) {
+    .jos{
+      font-size: 30px;
+    }
+  }
+  
+  @media (min-width:1000px) {
+    .sus{
+      font-size: 30px;
+    }
+  }
+  
+  @media (min-width: 1000px) {
+    .title{
+      font-size: 50px;
+    }
+  }
+  :hover.listaitemjos{
+    background-color: white;
+  }
+  
+  :hover.listalinkjos{
+    color: black;
+  }
+  
+  :hover.listaitemsus{
+    background-color: white;
+  }
+  
+  :hover.listalinksus{
+    color: black;
+  }
